@@ -23,6 +23,20 @@
                 <input type="text" class="form-control" placeholder="Location" id="newPlaceLocation">
               </div>
 
+              <div id="newLandmarks">
+                <div class="newLandmark">
+                  <div class="form-group">
+                    <input type="text" class="form-control newLandmarkName" placeholder="Name of Landmark">
+                  </div>
+
+                  <div class="form-group">
+                    <input type="text" class="form-control newLandmarkDescription" placeholder="Description of Landmark">
+                  </div>
+                </div>
+              </div>
+
+              <span class="btn btn-primary" id="add-landmark">Another Landmark</span>
+
               <button type="submit" class="btn">Add Place</button>
             </form>
 
@@ -38,6 +52,10 @@
 
                 <p> Place: <span class="placeName"></span></p>
                 <p> Location: <span class="placeLocation"></span></p>
+                <p> Landmark: </p>
+                  <ul id="landmarks">
+                  </ul>
+
             </div>
           </div>
 
