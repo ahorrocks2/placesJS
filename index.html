@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places We've Been</title>
+  </head>
+  <body>
+    <div class='container'>
+      <h1>Places We've Been</h1>
+        <div class='row'>
+          <div class="col-md-6">
+            <h2>Add a Place</h2>
+
+            <form id="newPlace">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name of Place" id="newPlaceName">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Location" id="newPlaceLocation">
+              </div>
+
+              <button type="submit" class="btn">Add Place</button>
+            </form>
+
+            <h2>List of Places:</h2>
+            <ul id="places">
+
+            </ul>
+          </div>
+
+          <div class="col-md=6">
+            <div id="showPlace">
+              <h2></h2>
+
+                <p> Place: <span class="placeName"></span></p>
+                <p> Location: <span class="placeLocation"></span></p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+  </body>
+</html>
+
+
+<!--
+<div id="newLandmarks">
+  <div class="newLandmark">
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Landmark" id="placeName">
+    </div>
+  </div>
+</div> -->

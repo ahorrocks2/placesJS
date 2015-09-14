@@ -1,0 +1,12 @@
+#showPlace {
+  display: none;
+}
+
+.place {
+  cursor: pointer;
+  color: green;
+}
+
+.place:hover {
+  text-decoration: underline;
+}
